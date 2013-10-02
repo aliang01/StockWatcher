@@ -186,7 +186,7 @@ private void displayStocks(String[] symbols) {  for (String symbol : symbols) { 
 	    
     // TODO Add a button to remove this stock from the table.
 	Button removeStockButton = new Button("x");
-	removeStockButton.addStyleDependentName("remove");
+	removeStockButton.addStyleDependentName("delete");
 	removeStockButton.addClickHandler(new ClickHandler() {
     public void onClick(ClickEvent event) {
        removeStock(symbol);
